@@ -23,7 +23,7 @@ This project demonstrates how to use the KNN algorithm to predict future stock p
 
 2. **Install required packages:**  
     ```
-    pip install numpy pandas scikit-learn matplotlib
+    pip install numpy pandas scikit-learn matplotlib quandl
     ```
 
 ## Usage
