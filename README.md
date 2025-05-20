@@ -1,44 +1,43 @@
-Stock_Prediction
-A machine learning project for predicting stock prices using the K-Nearest Neighbors (KNN) regression algorithm.
+# Stock_Prediction
 
-Overview
-This project demonstrates how to use the K-Nearest Neighbors (KNN) algorithm to predict future stock prices based on historical data. The workflow covers data preprocessing, model training, prediction, and visualization of results using a Jupyter Notebook.
+A simple machine learning project for predicting stock prices using the K-Nearest Neighbors (KNN) regression algorithm.
 
-Features
-Loads and preprocesses historical stock price data
+## Overview
 
-Implements KNN regression for stock price prediction
+This project demonstrates how to use the KNN algorithm to predict future stock prices based on historical data. The code covers data preprocessing, model training, prediction, and visualization using Python.
 
-Evaluates model performance using Mean Squared Error (MSE)
+## Features
 
-Visualizes actual vs. predicted stock prices
+- Loads and preprocesses historical stock price data
+- Implements KNN regression for stock price prediction
+- Evaluates model performance using Mean Squared Error (MSE)
+- Visualizes actual vs. predicted stock prices
 
-Installation
-Clone the repository:
+## Installation
 
-bash
-git clone https://github.com/garg0711/Stock_Prediction.git
-cd Stock_Prediction
-Install required packages:
-(If you don’t have a requirements.txt, install these common packages)
+1. **Clone the repository:**
+    ```
+    git clone https://github.com/garg0711/Stock_Prediction.git
+    cd Stock_Prediction
+    ```
 
-bash
-pip install numpy pandas scikit-learn matplotlib seaborn jupyter
-Usage
-Start Jupyter Notebook:
+2. **Install required packages:**  
+    *(If you don’t have a `requirements.txt`, install these common packages)*
+    ```
+    pip install numpy pandas scikit-learn matplotlib
+    ```
 
-bash
-jupyter notebook
-Open and run:
-Open KNN_Stock_Priceipynb.ipynb and run the cells step by step to see data processing, model training, and predictions.
+## Usage
 
-Project Structure
-text
-Stock_Prediction/
-├── KNN_Stock_Priceipynb.ipynb   # Main notebook for stock prediction
-└── README.md                    # Project documentation
-Results
-The notebook provides visualizations comparing actual and predicted stock prices, along with error metrics to evaluate the model’s accuracy.
+1. **Prepare your data:**  
+    Place your stock data CSV file (with columns like `Date` and `Close`) in the project directory.
 
-Contributing
-Contributions and suggestions are welcome! Feel free to open an issue or submit a pull request.
+2. **Run the code:**  
+    Open and run the Python script or Jupyter Notebook provided in the repository.  
+    Make sure to update the filename in the code to match your CSV file.
+
+3. **View results:**  
+    The script will output the Mean Squared Error and display a plot comparing actual and predicted stock prices.
+
+## Project Structure
+
