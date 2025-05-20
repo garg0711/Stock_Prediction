@@ -22,7 +22,6 @@ This project demonstrates how to use the KNN algorithm to predict future stock p
     ```
 
 2. **Install required packages:**  
-    *(If you don’t have a `requirements.txt`, install these common packages)*
     ```
     pip install numpy pandas scikit-learn matplotlib
     ```
